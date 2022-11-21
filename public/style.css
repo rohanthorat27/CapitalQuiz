@@ -1,0 +1,161 @@
+a{
+    color: black;
+}
+
+a:hover, a:visited:hover{
+    color: blue;
+}
+
+a:visited{
+    color: black;
+}
+
+body{
+    background-color:bisque;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box{
+    width: 20%;
+    height: 70px;
+    margin-top: 5px;
+    border: 3px solid;
+    background-color: beige;
+    font-size: 1.2rem;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.hide{
+    visibility: hidden;
+}
+
+.wrong{
+    color: red;
+}
+
+#correctAnswer{
+    color: green;
+}
+
+#foot{
+    position: relative;
+    top: 75px;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#head{
+    font-size: 4rem;
+    margin-top: 10px;
+}
+
+#play{
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+
+@media (min-width: 900px) {
+
+#first{
+    border-top-left-radius: 25px;
+}
+
+#second{
+    border-top-right-radius: 25px;
+}
+
+#third{
+    border-bottom-left-radius: 25px;
+}
+
+#fourth{
+    border-bottom-right-radius: 25px;
+}
+
+#question{
+    position: relative;
+    top: 40px;
+}
+
+#foot{
+    position: absolute;
+    left: 47%;
+    top: 680px;
+}
+
+#score{
+    position: relative;
+    top: 20px;
+}
+
+}
+
+
+@media (max-width: 900px){
+
+    .box{
+        display: block;
+        margin: auto;
+        width: 30%;
+        margin-top: 10px;
+        position: relative;
+    }
+
+    #correctAnswer{
+        position: relative;
+        top: 150px;
+    }
+
+    #first{
+        top: 20px;
+    }
+
+    #foot{
+        visibility: hidden;
+    }
+
+    #highScore{
+        position: relative;
+        bottom: 560px;
+    }
+
+    #play{
+        position: relative;
+        bottom: 200px;
+    }
+
+    #second{
+        top: 20px;
+    }
+
+    #score{
+        position: relative;
+        bottom: 500px;
+    }
+
+    #timer{
+        position: relative;
+        bottom: 30px;
+    }
+
+    #question{
+        position: relative;
+        bottom: 20px;
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+    
+  }
+
+  @media (max-width: 700px) {
+
+    .box{
+        width: 40%;
+    }
+
+  }
