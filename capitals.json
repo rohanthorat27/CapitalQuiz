@@ -152,10 +152,6 @@
         "city": "Moroni"
     },
     {
-        "country": "Congo",
-        "city": "Brazzaville"
-    },
-    {
         "country": "Costa Rica",
         "city": "San José"
     },
@@ -174,6 +170,10 @@
     {
         "country": "Czech Republic",
         "city": "Prague"
+    },
+    {
+        "country": "Democratic Republic of Congo",
+        "city": "Kinshasa"
     },
     {
         "country": "Denmark",
@@ -320,7 +320,7 @@
         "city": "Baghdad"
     },
     {
-        "country": "Ireland",
+        "country": "The Republic of Ireland",
         "city": "Dublin"
     },
     {
@@ -572,6 +572,10 @@
         "city": "Doha"
     },
     {
+        "country": "Republic of the Congo",
+        "city": "Brazzaville"
+    },
+    {
         "country": "Romania",
         "city": "Bucharest"
     },
@@ -704,10 +708,6 @@
         "city": "Bangkok"
     },
     {
-        "country": "The Democratic Republic of Congo",
-        "city": "Kinshasa"
-    },
-    {
         "country": "Togo",
         "city": "Lomé"
     },
@@ -748,7 +748,7 @@
         "city": "Abu Dhabi"
     },
     {
-        "country": "United States",
+        "country": "United States of America",
         "city": "Washington D.C."
     },
     {
